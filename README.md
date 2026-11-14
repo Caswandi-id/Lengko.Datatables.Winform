@@ -119,6 +119,9 @@ let length = new LengkoDataTableLength(Grid = grid, Dock = DockStyle.Left)
 grid.ExportToCsv("employees.csv")
 ```
 
+<img width="1020" height="518" alt="image" src="https://github.com/user-attachments/assets/66123578-f743-4eec-92d6-df79e401b7f3" />
+
+
 ---
 
 ## License
