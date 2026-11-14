@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lengko.Datatables.WinForms", "..\..\src\Lengko.Datatables.WinForms\Lengko.Datatables.WinForms.csproj", "{6CE8E6BF-2530-4892-BB95-1BCE8BE1FA15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{5D20AA90-6969-D8BD-9DCD-8634F4692FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lengko.Datatables.Demo.CSharp", "CSharp\Lengko.Datatables.Demo.CSharp.csproj", "{E39C01B3-6F4C-4146-B917-19A852075416}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lengko.Datatables.Demo.VB", "VB\Lengko.Datatables.Demo.VB.vbproj", "{DC7D2851-3E05-4031-B37C-D7937BA74E30}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Lengko.Datatables.Demo.FSharp", "FSharp\Lengko.Datatables.Demo.FSharp.fsproj", "{F412A81B-943C-4C92-A238-1E7C49102A7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CE8E6BF-2530-4892-BB95-1BCE8BE1FA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE8E6BF-2530-4892-BB95-1BCE8BE1FA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE8E6BF-2530-4892-BB95-1BCE8BE1FA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE8E6BF-2530-4892-BB95-1BCE8BE1FA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39C01B3-6F4C-4146-B917-19A852075416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39C01B3-6F4C-4146-B917-19A852075416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39C01B3-6F4C-4146-B917-19A852075416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39C01B3-6F4C-4146-B917-19A852075416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7D2851-3E05-4031-B37C-D7937BA74E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7D2851-3E05-4031-B37C-D7937BA74E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7D2851-3E05-4031-B37C-D7937BA74E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7D2851-3E05-4031-B37C-D7937BA74E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F412A81B-943C-4C92-A238-1E7C49102A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F412A81B-943C-4C92-A238-1E7C49102A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F412A81B-943C-4C92-A238-1E7C49102A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F412A81B-943C-4C92-A238-1E7C49102A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CE8E6BF-2530-4892-BB95-1BCE8BE1FA15} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{E39C01B3-6F4C-4146-B917-19A852075416} = {5D20AA90-6969-D8BD-9DCD-8634F4692FDA}
+		{DC7D2851-3E05-4031-B37C-D7937BA74E30} = {5D20AA90-6969-D8BD-9DCD-8634F4692FDA}
+		{F412A81B-943C-4C92-A238-1E7C49102A7D} = {5D20AA90-6969-D8BD-9DCD-8634F4692FDA}
+	EndGlobalSection
+EndGlobal
