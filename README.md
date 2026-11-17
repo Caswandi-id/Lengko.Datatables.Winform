@@ -39,6 +39,44 @@ Dedicated solution: **`Lengko.Datatables.WinForms.sln`** (builds all 3 demos alo
 
 ---
 
+## Installation (NuGet)
+
+[![NuGet](https://img.shields.io/nuget/v/Lengko.Datatables.Winform.svg)](https://www.nuget.org/packages/Lengko.Datatables.Winform)
+[![Downloads](https://img.shields.io/nuget/dt/Lengko.Datatables.Winform.svg)](https://www.nuget.org/packages/Lengko.Datatables.Winform)
+
+Package: [Lengko.Datatables.Winform](https://www.nuget.org/packages/Lengko.Datatables.Winform) on NuGet.org.
+
+### .NET CLI
+
+```powershell
+dotnet add package Lengko.Datatables.Winform
+```
+
+### Package Manager Console (Visual Studio)
+
+```powershell
+Install-Package Lengko.Datatables.Winform
+```
+
+### PackageReference (.csproj / .vbproj / .fsproj)
+
+```xml
+<ItemGroup>
+  <PackageReference Include="Lengko.Datatables.Winform" Version="1.0.0" />
+</ItemGroup>
+```
+
+### Visual Studio GUI
+
+1. Right-click the project, then select **Manage NuGet Packages...**
+2. Open the **Browse** tab and search for `Lengko.Datatables.Winform`.
+3. Click **Install**.
+
+Supported frameworks: `net472`, `net48`, `netcoreapp3.1`, `net5.0-windows` to `net10.0-windows`.
+
+---
+
+
 ## Quick Start / How to Run
 
 ### Via Visual Studio
